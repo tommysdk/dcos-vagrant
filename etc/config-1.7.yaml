@@ -5,6 +5,7 @@ exhibitor_storage_backend: zookeeper
 exhibitor_zk_hosts: 192.168.65.50:2181
 exhibitor_zk_path: /dcos
 master_discovery: static
+oauth_enabled: 'false'
 master_list:
 - 192.168.65.90
 resolvers:
